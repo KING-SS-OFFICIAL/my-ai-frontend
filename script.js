@@ -19,7 +19,7 @@ async function send() {
 
     addMessage("Typing...", "bot");
 
-    const res = await fetch("https://YOUR-BACKEND.onrender.com/chat", {
+    const res = await fetch("https://my-ai-website-4xnh.onrender.com/chat", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
